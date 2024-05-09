@@ -12,7 +12,7 @@ export default function Navbar() {
         setDropdown(!dropdown);
     }
     return (
-        <nav className="w-full h-24 flex flex-col justify-center items-center lg:bg-transparent bg-[url('img/egipto.jpg')] bg-cover lg:relative fixed z-20">
+        <nav className="w-full h-24 flex flex-col justify-center items-center lg:bg-transparent bg-[url('/img/egipto.jpg')] bg-cover lg:relative fixed z-20">
             <div className="container mx-auto lg:px-6">
                 <div className="lg:w-full w-11/12 mx-auto h-full flex justify-between items-center">
                     <div className="flex flex-col gap-y-4 lg:w-1/3">
